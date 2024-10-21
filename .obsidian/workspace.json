@@ -34,7 +34,7 @@
               "type": "markdown",
               "state": {
                 "file": "Programming Concepts/PHP- OOP - Explained.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c76e223f48296ce4",
@@ -194,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4aadfc3f88188d4a",
+  "active": "f9acc6f1ba7f03ed",
   "lastOpenFiles": [
     "README.md",
     "Projects/Webapplication Project/web-project1.md",
