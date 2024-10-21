@@ -1,2 +1,3 @@
 # Notes
-helo world
+
+this repository contains my  obsidian notes.
