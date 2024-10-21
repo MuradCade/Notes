@@ -1,3 +1,3 @@
 # Notes
 
-this repository contains my  obsidian notes.
+this repository contains my  obsidian notes.s
