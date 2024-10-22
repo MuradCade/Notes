@@ -7,6 +7,7 @@ in order to understand object oriented we will discuss the following concepts:-
 - [ ] Inheritance
 - [ ] Getters and Setters
 - [ ] Type Decoration / Type Hinting
+- [ ] Interface
 
 
 
@@ -351,4 +352,74 @@ echo addition(2,2);
 //if you give string add('1','2') it will display error
 
 
+```
+
+## 8- Interface
+interface is used to group classes with set of rules, those rules should be followed by the class that are been grouped.
+below code explains interface.
+
+```php
+// imagine we are creating payment gateway for ecommerce website and this website supports three different payment menthods such as cash,paypal,visa/credit-card, in order to implement this payment gate way we will use interface.
+
+// in order to manage/group all those class we will use interface 
+
+interface paymentgrouping{
+// specify rule that all payment class have in common
+// all payment class should have public function called paynow
+// in order interface to work we should give each payment class keyword named implements with interfacename(implements paymentgrouping)
+public function paynow();
+}
+
+//first we will create class named cash
+class cash implements paymentgrouping {
+	//method that handles payment with cash
+	public function paynow(){
+		echo "paying with cash \n";
+	}
+}
+//second  we will create class named paypal
+class paypal implements paymentgrouping{
+	
+	// imagine before we pay with paypal we need to login how can we handle it , we can create method called loginwithpaypal, and we can create method called paywithpaypal, then we will called those two methods inside the paynow method 
+	//login to paypal before paying
+	public function loginwithpaypal(){
+	echo "Login to paypal before paying \n";
+	}
+	// now you can pay with paypal
+	public function paywithpaypal(){
+	echo "Now paying with paypal \n";
+	}
+	//method that handles payment with paypal
+	public function paynow(){
+	//called two method above.
+	$this->loginwithpaypal();
+	$this->paywithpaypal();
+		
+	}
+}
+//third  we will create class named visa/credit-card
+class creditcard implements paymentgrouping{
+	//method that handles payment with visa/credit-card
+	public function paynow(){
+		echo "paying with visa/credit-card \n";
+	}
+}
+
+
+//we gona create class that manages payments, it manage which payment is choose.
+class manageallpayments{
+	// create method that takes payment method as decoration and by decoration it means interface name.
+	//payment gateway property will be parameter
+	public function pay(paymentgrouping $paymentgateway){
+		// return payment gateway from prameter with method that all three class have common on and named paynow
+		return $paymentgateway->paynow();
+	}
+}
+
+// create instance(object) of one of the three paymentgateway class(cash ,creditcard,paypal)
+// you can change class name to another one to get the message with in the paynow methods
+$paymentgateway = new paypal();
+$object = new manageallpayments();
+echo $object->pay($paymentgateway);
+//output : paying with cash
 ```
