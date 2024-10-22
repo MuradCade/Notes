@@ -11,10 +11,14 @@
             "id": "a84c5f98459614e2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programming Concepts/Config-Github-Push-In-Linux.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Config-Github-Push-In-Linux"
             }
           }
         ]
@@ -170,11 +174,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d84f3876e5d7145",
+  "active": "a84c5f98459614e2",
   "lastOpenFiles": [
+    "Programming Concepts/PHP- OOP - Explained.md",
     "Untitled.md",
     "Untitled.canvas",
-    "Programming Concepts/PHP- OOP - Explained.md",
     "Programming Concepts/Config-Github-Push-In-Linux.md",
     "Programming Concepts/Error-Handling-In-PHP.md",
     "Untitled 1.canvas",
