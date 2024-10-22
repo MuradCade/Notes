@@ -5,6 +5,7 @@ in order to understand object oriented we will discuss the following concepts:-
 - [ ] Access Modifiers in Properties and Methods
 - [ ] Magic functions such as Construct and Destruct
 - [ ] Inheritance
+- [ ] Getters and Setters
 
 
 
@@ -293,4 +294,40 @@ $object = new books();
 echo $object->displayauthorandbookname();
 //output : bookname : php 1st edition is authered by MuradCade
 ```
+
+
+## 6- Getters and Setters
+when a method or property has access specifier of private or protected , to access their value  or give a value we use getters and setters.
+code below is example of getters and setters.
+
+```php
+// let create class called users , this class will two property , one with private modifier and the other with protected modifier.
+
+class users{
+	private $name;
+	protected $age;
+	
+	
+// setter(setnameandage) method will handle givig value to private and protected properties.
+
+	public function setnameandage($name,$age){
+		$this->name = $name;
+		$this->age = $age;
+		
+	}
+	
+	// getter(getnameandage) method that will return the value of name property.
+	public function getnameandage(){
+		return 'name : '.$this->name.", age: ".$this->age."\n";
+	}
+	
+}
+
+//create object of class users
+$object = new users();
+$object->setnameandage('murad','01');
+echo $object->getnameandage();
+//output: name : murad, age: 01
+```
+
 
