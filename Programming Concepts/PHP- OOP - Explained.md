@@ -6,6 +6,7 @@ in order to understand object oriented we will discuss the following concepts:-
 - [ ] Magic functions such as Construct and Destruct
 - [ ] Inheritance
 - [ ] Getters and Setters
+- [ ] Type Decoration / Type Hinting
 
 
 
@@ -332,4 +333,22 @@ echo $object->getnameandage();
 ```
 
 
+##  7- Type Decoration / Type Hinting
+Type decoration or Type hinting is way to define variable data type, imagine we have function called addition(a,b) that takes to integer values as parameter , when 2 values argument expected to be integer but the passed argument is string how can we check that and display error.
+Type decoration is a way to give function specific data type variable and display error if expected doesn't match the type given in parameter.
+code below explain it.
 
+```php
+//lets create function named addition that takes two parameter as integer number and if something else is given display error.
+//declare function says every function will only takes specify data type
+declare(strict_types = 1);
+function addition(int $a,int $b){
+ $result = $a+$b;
+return $result;
+}
+echo addition(2,2);
+//output : 3
+//if you give string add('1','2') it will display error
+
+
+```

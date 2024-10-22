@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ff64846ddd4b651d",
+        "id": "3bf9975efdbaa7e2",
         "type": "tabs",
         "children": [
           {
-            "id": "a804efe0e07997ad",
+            "id": "8ee15cc6fdb0565d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,17 +24,17 @@
         ]
       },
       {
-        "id": "3b59628d0134bda1",
+        "id": "594cab7fc381d3b7",
         "type": "tabs",
         "children": [
           {
-            "id": "0283cc4784774e87",
+            "id": "5d6245ef1e504fd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Programming Concepts/PHP- OOP - Explained.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -195,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0283cc4784774e87",
+  "active": "5d6245ef1e504fd6",
   "lastOpenFiles": [
-    "Programming Concepts/Config-Github-Push-In-Linux.md",
     "Programming Concepts/PHP- OOP - Explained.md",
+    "Programming Concepts/Config-Github-Push-In-Linux.md",
     "Programming Concepts/Error-Handling-In-PHP.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
