@@ -10,6 +10,7 @@ in order to understand object oriented we will discuss the following concepts:-
 
 
 
+
 ## 1- Class and Objects Explained
 what is a class and object?
 class is blue print/skeleton that contains properties and methods.

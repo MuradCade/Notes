@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "56c666b2fdd6c202",
+        "id": "ff64846ddd4b651d",
         "type": "tabs",
-        "dimension": 77.83613445378151,
         "children": [
           {
-            "id": "f9acc6f1ba7f03ed",
+            "id": "a804efe0e07997ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,36 +20,21 @@
               "icon": "lucide-file",
               "title": "PHP- OOP - Explained"
             }
-          },
-          {
-            "id": "f090df49eb9e9dc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Concepts/Config-Github-Push-In-Linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Config-Github-Push-In-Linux"
-            }
           }
         ]
       },
       {
-        "id": "ff64846ddd4b651d",
+        "id": "3b59628d0134bda1",
         "type": "tabs",
-        "dimension": 22.163865546218485,
         "children": [
           {
-            "id": "a804efe0e07997ad",
+            "id": "0283cc4784774e87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Programming Concepts/PHP- OOP - Explained.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -113,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c76e223f48296ce4",
@@ -210,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f9acc6f1ba7f03ed",
+  "active": "0283cc4784774e87",
   "lastOpenFiles": [
     "Programming Concepts/Config-Github-Push-In-Linux.md",
     "Programming Concepts/PHP- OOP - Explained.md",
