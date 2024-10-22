@@ -15,7 +15,7 @@ function customerrorhandler($errno,$errstr,$errfile,$errlinr){
 	$message = "Error : [$errno] $errstr - $errfile:$errline";
 	//generate file with error information
 	error_log($message,3,"error_log.text");
-	
+	//note:create filename called err_log.text in order to store the errors inside of it.
 }
 
 // in order we store the function data we should run it every time error ouccur
