@@ -3,6 +3,8 @@ in order to understand object oriented we will discuss the following concepts:-
 - [ ] Class and Objects ,
 - [ ] Method (function) and Properties (variables)
 - [ ] Access Modifiers in Properties and Methods
+- [ ] Magic functions such as Construct and Destruct
+- [ ] Inheritance
 
 
 
@@ -205,3 +207,90 @@ $object = new author();
 echo $object->getbookname();
 //output : php 1st edition
 ```
+
+
+## 4- Magic Functions  | Construct and Destruct
+what is magic functions?
+magic functions are functions that start with double underscore before their name.
+- constructor is function that runs when object of class is created and doesn't have return type (means doesn't return value),but if you use its function name it can return the value
+- destruct is function that runs at the end when object of class is created , doesn't have return type.
+
+
+- [ ] i-  construct method code.
+- normal construct function: if construct function is writing this way its not possible to return its value by using return keyword , because it a part of the object.
+```php
+class books{
+	public function __construct(){
+		echo "helo from construct function/method";
+	}
+
+}
+//create instance of class
+echo $object = new books();
+//output : helo from construct function/method
+```
+
+- construct function return value.
+construct function can return value by calling its function name.
+```php
+class books{
+	public function __construct(){
+	 $data = 'helo world';
+	 return $data;
+		
+	}
+	
+}
+//create instance of class
+$object = new books();
+echo $object->__construct();
+//output : helo world.
+```
+
+- [ ] ii- Destruct method code below.
+	- deconstruct is method that runs after the construct . code below show how we can change the value of variable.
+```php
+class books{
+	public $bookname;
+	public function __construct(){
+	 $this->bookname = 'php 1st edition';
+		echo $this->bookname."\n";
+	}
+	
+	public function __destruct(){
+		$this->bookname = 'book name changed';
+		echo $this->bookname."\n";
+	}
+	
+}
+//create instance of class
+$object = new books();
+//output : php 1st edition , book name changed
+
+```
+
+## 5- Inheritance
+inheritance is object oriented concept and its ability to inherit or extend class content and use it inside another class.
+below is code example.
+```php
+// is this example we will create to class , classone we will called author and classtwo we will called books , we will tru to extand author class information and display it inside book class.
+
+class author{
+	public $authorname = 'MuradCade';
+	
+
+}
+
+class books extends author{
+		public $bookname = 'php 1st edition';
+		public function displayauthorandbookname(){
+			return "bookname : ".$this->bookname.' is authered by '.$this->authorname;
+		}
+}
+
+// create instance of class named books
+$object = new books();
+echo $object->displayauthorandbookname();
+//output : bookname : php 1st edition is authered by MuradCade
+```
+
