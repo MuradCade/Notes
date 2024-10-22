@@ -332,4 +332,3 @@ echo $object->getnameandage();
 
 
 
-.
