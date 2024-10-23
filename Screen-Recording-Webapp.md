@@ -1,0 +1,22 @@
+in this project we will build screen recording web application that have ability to record screen of laptop with video and audio then when video finish recording , recorded video is automatically uploaded to server and stored in the database.
+
+### Features 
+- ability to record screen video and audio
+- ability to upload recorded video into server and storing it inside the database
+- ability to have users that each video belong to specific user.
+- membership
+- ability to share video as link in social media =we should encrypt video id
+
+
+### Pages
+ - login page
+ - signup page
+ - dashboard / record new video page
+ -  dashboard / view recorded videos page
+ - leave comment about video(every user who have video link can give comment about the  video).
+ -  dashboard / show comments
+
+
+
+- project youtube video : 
+- 
