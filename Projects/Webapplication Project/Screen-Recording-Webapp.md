@@ -19,3 +19,8 @@ in this project we will build screen recording web application that have ability
 
 
 - project youtube video : https://youtube.com/playlist?list=PLsY8aWop1tAEh-NbTNQ0vYsdEUk2eeZaJ&si=AHNzlOZOSUhmcXgi
+
+what is video stream ?
+video stream is the process a video is displayed in chuncks for the client and video is downloaded in chuncks.
+video explain it :https://www.youtube.com/watch?v=ZjBLbXUuyWg
+
