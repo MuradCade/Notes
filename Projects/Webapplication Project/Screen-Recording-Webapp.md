@@ -23,4 +23,4 @@ in this project we will build screen recording web application that have ability
 what is video stream ?
 video stream is the process a video is displayed in chuncks for the client and video is downloaded in chuncks.
 video explain it :https://www.youtube.com/watch?v=ZjBLbXUuyWg
-
+video deep explain in http request using php:https://www.youtube.com/watch?v=CiGnubZC5cs
