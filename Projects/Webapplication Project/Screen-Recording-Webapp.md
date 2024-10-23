@@ -18,5 +18,4 @@ in this project we will build screen recording web application that have ability
 
 
 
-- project youtube video : 
-- 
+- project youtube video : https://youtube.com/playlist?list=PLsY8aWop1tAEh-NbTNQ0vYsdEUk2eeZaJ&si=AHNzlOZOSUhmcXgi
