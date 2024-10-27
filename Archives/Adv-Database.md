@@ -27,3 +27,6 @@
 | 24  | Ubax Mahamed Abdilaahi     | 10             |
 | 25  | Umal khayr Abdirahman      | 10             |
 | 26  | Nimco Hassan Matan         | 10             |
+| 27  | Sharmake Mohamed Jama       | 10             |
+| 28  | Faysal Hassan Matan         | 10             |
+
