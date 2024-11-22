@@ -29,11 +29,3 @@ manager account
 ## Database Design
 
 this project contains 10 tables , database is named wastemng
-
-
-
-
-
-
-
-
