@@ -305,9 +305,13 @@ image we have 3 tables , table one is students , table two is present , table th
     
     // insert below data into student table
     ```
-
+    
     insert into student(studentid,studentname,coursename)values(
+    
         101,'mustafe','database');
+    
+    ```
+    
     ```
 
 | studentid | studentname | coursename |

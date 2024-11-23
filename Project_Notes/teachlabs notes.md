@@ -6,18 +6,6 @@ teachlab code is mess , write everything and use only pure php , no need for jqu
 
 1- login logic doesn't  work
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Features
 
 1- import excel 
