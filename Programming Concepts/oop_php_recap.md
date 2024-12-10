@@ -1,7 +1,5 @@
 Object Oriented Programming continue 
 
-
-
 ## 1- Triats
 
 Traits are used when you need to extend more then one class.
@@ -9,8 +7,6 @@ Traits are used when you need to extend more then one class.
 triat are use in sensitive situation just imagine you have 3 class , first one is called database and it contains connection of database , the second one is called role it has all methods needed to verify user role and the last you have delete user class.
 
 in the scenario we need to delete. you can use trait when extend is not avaliable.
-
-
 
 ### Traits Code
 
@@ -51,7 +47,7 @@ class deleteuser extends database{
 public function delete($role){
     if($this->roles($role)){
     echo 'user deleted successfully ';
-    
+
 }else {
     echo 'only admin are allowed to delete users';
 }
@@ -69,8 +65,6 @@ echo $object->delete('admin');
 //output : if delete pramater is admin : user deleted successfully,
 // if not ouput: only admin are allowed to delete users
 ```
-
-
 
 ## 2- Abstract
 
@@ -111,7 +105,13 @@ echo $object->addstudentinfo();
 echo $object->getstudentinfo();
 
 //output : student added successfully, all students data are been displayed
-
 ```
 
-
+```.htaccess
+RewriteEngine On
+RewriteBase /<app>/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+```

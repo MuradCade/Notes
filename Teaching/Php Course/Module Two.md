@@ -14,6 +14,8 @@ Table of content :-
 
 - lesson 5 : How to build database for bussiness
 
+- relational database / no relational database
+
 # What is data?
 
 Data is a collection of facts, numbers, words, or other information that can be used for analysis or decision making.
@@ -31,14 +33,16 @@ we will do the following :-
 - create database
 
 - create table (primary key,not null) , but before creating table we need to understand data types in sql(nocyada xogta ay noqonayso)
+
+- id,name,age,dob,classname(column / attribute)
   
-  - primary key : primary key is not data type , its responsible to reduce redunance of data inside the database.
+  - primary key : primary key is not data type , its responsible to reduce redunance of data inside the database. 
   
   - numeric : this data type represent everything related to numbers as integer , double,float.
   
-  - String : this data type represent every thing related to text such as character(hal xaraf kaliya tusale 'A') or varchar(qoral dhamaystiran , tusale mustafe)
+  - String : this data type represent every thing related to text such as character(char)(hal xaraf kaliya tusale 'A') or varchar(qoral dhamaystiran , tusale mustafe)     mustafe kahin warfaa aadan
   
-  - Date : this data type represent date  (qaabka date loo qoro aya ah  manlinta/bisha/sanadka = 01/23/2024)
+  - Date : this data type represent date  (qaabka date loo qoro aya ah  manlinta/bisha/sanadka = 01/11/2024)
   
   - Time : this data type represent time (10:00),
   
