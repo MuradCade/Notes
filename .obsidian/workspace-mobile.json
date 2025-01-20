@@ -13,16 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Programming Concepts/oop_php_recap.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "oop_php_recap"
+            }
+          },
+          {
+            "id": "a52f7c9ec9527203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bussiness/Bussiness plans.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bussiness plans"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,29 +170,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84420560a9e463d8",
+  "active": "a52f7c9ec9527203",
   "lastOpenFiles": [
-    "Programming Concepts/PHP- OOP - Explained.md",
-    "Programming Concepts/Config-Github-Push-In-Linux.md",
-    "Programming Concepts/Error-Handling-In-PHP.md",
-    "Projects/Mobileapplication Project/mobile-project1.md",
-    "Projects/Webapplication Project/web-project1.md",
-    "Projects/Webapplication Project/Screen-Recording-Webapp.md",
-    "Archives/Adv-Database.md",
-    "/Archives/Adv-Database.md",
+    "Programming Concepts/oop_php_recap.md",
+    "Bussiness/Bussiness plans.md",
+    "Untitled",
+    "Bussiness",
+    "Personal/info.md",
+    "Teaching/Php Course/Module Two.pdf",
+    "Teaching/Php Course/Module Three.md",
+    "Personal/pdo concepts.md",
+    "/Personal/info.md",
+    "Flutter_Notes/Go Router.md",
+    "Documentation/Teachlab.md",
+    "/Teaching/Php Course/Module Two.pdf",
+    "/Teaching/Php Course/Module Two.md",
+    "/Teaching/Php Course/Module Three.md",
+    "/Project_Notes/waste_management_software.md",
+    "/Project_Notes/teachlabs notes.md",
+    "/Programming Concepts/oop_php_recap.md",
+    "/Personal/pdo concepts.md",
+    "/Flutter_Notes/Go Router.md",
+    "/Documentation/Teachlab.md",
+    "Personal",
+    "Flutter_Notes",
+    "Documentation",
+    "/Personal",
+    "/Flutter_Notes",
+    "/Documentation",
+    "Teaching/Php Course/Module Two.md",
+    "Project_Notes/waste_management_software.md",
+    "Project_Notes/teachlabs notes.md",
+    "Project_Notes/Screen-Recording-Webapp.md",
     "/Projects/Webapplication Project/Screen-Recording-Webapp.md",
-    "Archives",
-    "/Archives",
+    "/Project_Notes/Screen-Recording-Webapp.md",
     "/Programming Concepts/PHP- OOP - Explained.md",
-    "/Programming Concepts/Config-Github-Push-In-Linux.md",
-    "/Programming Concepts/Error-Handling-In-PHP.md",
     "README.md",
-    "/README.md",
-    "Projects/Mobileapplication Project",
-    "Projects/Webapplication Project",
-    "Projects",
-    "Programming Concepts",
-    "Project",
-    "University"
+    "Programming Concepts/PHP- OOP - Explained.md",
+    "Programming Concepts/Config-Github-Push-In-Linux.md"
   ]
 }
