@@ -49,7 +49,8 @@
               "title": "Developing Budgeting MobileApp"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,13 +204,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09f436eae8e12e14",
+  "active": "6ee9e735a2b35ee1",
   "lastOpenFiles": [
+    "Bussiness/Bussiness plans.md",
+    "Bussiness",
     "Flutter_Notes/Developing Budgeting MobileApp.md",
     "Flutter_Notes/Go Router.md",
+    "Teaching/Master Web Design with Figma & Elementor.md",
     "Teaching/Todo List.md",
     "Project_Notes/Mobile-App SAAS.md",
-    "Teaching/Master Web Design with Figma & Elementor.md",
     "Youtube/elementore/video 2.md",
     "Youtube/Send Email With Php.md",
     "Youtube/elementore/Video 1.md",
@@ -238,7 +241,6 @@
     "Archives",
     "Programming Concepts/PHP- OOP - Explained.md",
     "Programming Concepts/Config-Github-Push-In-Linux.md",
-    "Programming Concepts/Error-Handling-In-PHP.md",
-    "Projects/Webapplication Project/web-project1.md"
+    "Programming Concepts/Error-Handling-In-PHP.md"
   ]
 }
