@@ -1,0 +1,2 @@
+- [ ] get the design of the app(how the app will look like)
+- [ ] learn how getx works for controlling state inside the app

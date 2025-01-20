@@ -1,4 +1,6 @@
 {
   "defaultViewMode": "preview",
-  "promptDelete": false
+  "promptDelete": false,
+  "showLineNumber": false,
+  "readableLineLength": true
 }

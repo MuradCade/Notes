@@ -163,3 +163,25 @@ this project contains 10 tables , database is named wastemng
 - pagination on tables and ability to search by name or id
 
 - language support (english / somali) ability to switch languages for particular user
+
+
+# Todo List
+- [x]  rea crud-operation : search
+- [x]  customer registration crud operation : search
+- [ ]  week work : week schedule
+- [ ]   week work history
+- [ ] money collection
+- [x] employee crud
+- [ ]  dept
+- [ ] complain
+- [ ]  report
+- [ ] edit profile info
+	- [ ] change password
+- [ ] dashboard we should display : total amount of collected money during week,
+	- [ ] total customers
+	- [ ]  total areas
+	- [ ]  total money debt
+	- [ ]  and also week work schedule (shaqada lagu gudo jiro todobadka (only current month))
+	
+
+
